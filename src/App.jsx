@@ -1,7 +1,6 @@
-import { Button, Input, Card, CardBody } from "@heroui/react";
+import { Button, Input, Card, CardBody } from '@heroui/react';
 
 function App() {
-
   return (
     <main>
       <Card>

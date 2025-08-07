@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "format": "prettier --write .",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -11,9 +12,17 @@
   },
   "dependencies": {
     "@heroui/react": "^2.8.2",
+    "@internationalized/date": "^3.8.2",
+    "@react-aria/i18n": "^3.12.11",
     "@tailwindcss/vite": "^4.1.11",
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2",
+    "cuid": "^3.0.0",
+    "date-fns": "^4.1.0",
+    "dexie": "^4.0.11",
+    "dexie-export-import": "^4.1.4",
+    "dexie-react-hooks": "^1.1.7",
+    "file-saver": "^2.0.5",
     "framer-motion": "^12.23.12",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -22,6 +31,7 @@
   "devDependencies": {
     "@tauri-apps/cli": "^2",
     "@vitejs/plugin-react": "^4.6.0",
+    "prettier": "^3.6.2",
     "vite": "^7.0.4"
   }
 }
