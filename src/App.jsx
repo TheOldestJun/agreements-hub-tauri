@@ -1,17 +1,14 @@
-import { Button, Input, Card, CardBody } from '@heroui/react';
+import { TabsController } from './components'
 
 function App() {
+
   return (
-    <main>
-      <Card>
-        <CardBody>
-          <h1 className="text-3xl text-red-600">agreements-hub-tauri</h1>
-          <Button>Button</Button>
-          <Input />
-        </CardBody>
-      </Card>
-    </main>
-  );
+    <div className="flex flex-col items-center justify-center">
+      <main className="mt-2 w-10/12">
+        <TabsController />
+      </main>
+    </div>
+  )
 }
 
-export default App;
+export default App
