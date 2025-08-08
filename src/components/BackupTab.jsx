@@ -15,7 +15,7 @@ function BackupTab() {
             const blob = await exportDB(db, { prettyJson: true }); // prettyJson для читаемости
             addToast({
                 title: 'Экспорт базы данных',
-                description: `Выберите папку сохранения...`,
+                description: `Сохранено в папке "Загрузки"`,
                 color: 'primary',
                 timeout: 5000
             });
